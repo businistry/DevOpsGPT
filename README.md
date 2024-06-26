@@ -9,7 +9,6 @@
 <a href="https://discord.gg/4RMUCZwnxF"><img src="https://img.shields.io/badge/Discord-DevOpsGPT-green" alt="roadmap"></a>
 </p>
 
-### 💡 Get Help - [Q&A](https://github.com/kuafuai/DevOpsGPT/issues) 
 ### 💡 Submit Requests - [Issue](https://github.com/kuafuai/DevOpsGPT/discussions)
 ### 💡 Technical exchange - service@kuafuai.net
 
