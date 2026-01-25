@@ -73,9 +73,10 @@ def login():
 
     if GRADE == "base":
         ok = User.checkPassword(username, password)
-        storage.set("tenant_id", 0) 
-        storage.set("user_id", 1) 
-        storage.set("username", username)
+        if ok:
+            storage.set("tenant_id", 0)
+            storage.set("user_id", 1)
+            storage.set("username", username)
     else:
         ok = UserPro.checkPassword(username, password)
         if ok:

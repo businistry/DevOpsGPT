@@ -4,5 +4,5 @@ from config import GRADE
 
 class LLMInterface(ABC):
     @abstractmethod
-    def chatCompletion(self, context):
+    def chatCompletion(self, context, fackData="", bill=True):
         pass

@@ -42,7 +42,7 @@ class LLMBase(LLMInterface):
         # Test frontend
         if MODE == "FAKE" and len(fackData) > 0:
             time.sleep(5)
-            return fackData, True
+            return fackData, 0, True
         
         print("chatGPT - message:", flush=True)
         print(context, flush=True)
